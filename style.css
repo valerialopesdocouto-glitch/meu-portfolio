@@ -1,0 +1,94 @@
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf6ff;
+    color: #333333;
+}
+
+/* Título principal */
+
+h1 {
+    color: #9b72cf;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+/* Personalização da barra de navegação */
+
+.navbar {
+    background-color: #eadcf8;
+}
+
+.navbar .nav-link {
+    color: #6f4a91;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #d47aa8;
+}
+
+/* Títulos das seções */
+
+h2 {
+    color: #9b72cf;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Espaçamento das seções */
+
+section {
+    padding: 60px 20px;
+}
+/* Personalização dos cartões */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(155, 114, 207, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(155, 114, 207, 0.3);
+}
+
+/* Botões */
+
+.btn-primary {
+    background-color: #9b72cf;
+    border-color: #9b72cf;
+}
+
+.btn-primary:hover {
+    background-color: #8055b5;
+    border-color: #8055b5;
+}
+/* Personalização dos textos */
+
+p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #eadcf8;
+    color: #6f4a91;
+    text-align: center;
+    padding: 20px;
+}
