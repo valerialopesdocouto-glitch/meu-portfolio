@@ -8,6 +8,10 @@ Este projeto consiste no desenvolvimento de um portfólio pessoal para apresenta
 
 O site reúne informações sobre meu perfil, habilidades, projetos acadêmicos e formas de contato.
 
+## Link do site publicado
+
+https://valerialopesdocouto-glitch.github.io/meu-portfolio/
+
 ## Tecnologias utilizadas
 
 - HTML5
@@ -24,17 +28,23 @@ O site reúne informações sobre meu perfil, habilidades, projetos acadêmicos 
 - Projetos: apresentação dos trabalhos acadêmicos.
 - Contato: links para GitHub e LinkedIn.
 
-## Funcionalidades
+## Funcionamento do projeto
 
-- Menu de navegação entre as seções.
-- Layout responsivo com Bootstrap.
-- Cartões para apresentação dos projetos.
-- Links para os repositórios do GitHub.
-- Efeitos visuais ao passar o mouse sobre os cartões.
+O portfólio possui um menu de navegação que permite acessar diferentes seções da página. Utiliza Bootstrap para auxiliar na organização do layout e na responsividade.
 
-## Recurso adicional
+Também apresenta cartões para exibir os projetos acadêmicos, com botões que direcionam para seus respectivos repositórios no GitHub.
 
-Foi implementado um efeito de transição nos cartões, que se movimentam levemente para cima quando o visitante passa o mouse sobre eles, proporcionando uma experiência visual mais interativa.
+## Recurso novo adicionado
+
+Foi implementado um efeito visual nos cartões dos projetos. Ao passar o mouse sobre um cartão, ele se movimenta levemente para cima e apresenta uma sombra mais destacada.
+
+## Como o recurso foi implementado
+
+O efeito foi desenvolvido utilizando CSS, por meio das propriedades `transition`, `transform` e `box-shadow`.
+
+O seletor `:hover` identifica quando o visitante posiciona o mouse sobre o cartão. Nesse momento, a propriedade `transform: translateY(-8px)` movimenta o cartão para cima, enquanto `box-shadow` modifica a intensidade da sombra.
+
+A propriedade `transition` proporciona uma mudança suave entre os estados normal e hover.
 
 ## Objetivo
 
